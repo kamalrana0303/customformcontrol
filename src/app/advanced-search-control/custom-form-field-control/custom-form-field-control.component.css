@@ -1,0 +1,18 @@
+:host{
+    display:flex;
+    align-items: center;
+    
+}
+.select{
+    max-width: 150px;
+    margin-left:0.8rem;
+}
+.divider{
+    height:1em;
+    color:currentColor;
+    margin: 0 0.75rem
+}
+
+:host.required{
+    color:#2803fc;
+}

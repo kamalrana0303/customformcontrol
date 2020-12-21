@@ -1,0 +1,8 @@
+<form [formGroup]="fg" (ngSubmit)="save()">
+    <mat-form-field appearance="outline">
+        <mat-label>Item</mat-label>
+        <input type="text" matInput formControlName="itemName">
+    </mat-form-field>
+    <app-lock-input formControlName="isLocked"></app-lock-input>
+    <button mat-raised-button color="primary" [disabled]="fg.untouched">Add Item</button>
+</form>

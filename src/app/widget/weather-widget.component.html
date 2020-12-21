@@ -1,0 +1,7 @@
+<mat-progress-bar class="loader" mode="buffer" *ngIf="isLoading"></mat-progress-bar>
+
+<section [class.loading]="isLoading">
+    <h5>Current Weather</h5>
+    <mat-icon class="widget-icon">wb_sunny</mat-icon>
+    <div class="value">+25</div>
+</section>

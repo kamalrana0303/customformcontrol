@@ -1,0 +1,14 @@
+.content-loading{
+    opacity: 0.5;
+    border:2px solid black;
+}
+.widget-icon{
+    color:#425063;
+}
+div{
+    text-align: center;
+   
+}
+.loader{
+    left:50%;
+}

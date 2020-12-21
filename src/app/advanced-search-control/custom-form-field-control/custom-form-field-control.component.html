@@ -1,0 +1,19 @@
+<ng-container [formGroup]="fg">
+    <mat-select class="select" formControlName="scope" >
+        <mat-option value="aus">Australia</mat-option>
+        <mat-option value="ind">India</mat-option>
+        <mat-option value="eukraine">Eukraine</mat-option>
+        <mat-option value="uk">UK</mat-option>
+        <mat-option value="usa">USA</mat-option>
+    </mat-select>
+    <mat-divider [vertical]="true" class="divider"></mat-divider>
+    <input  formControlName="query"
+            matInput 
+            type="text" 
+            class="input"
+            name="advanced-search"
+            [ngStyle]="{ opacity : disabled ? 0.5 : 1 }"
+            [required]="required" 
+           
+            [placeholder]="placeholder"/>
+</ng-container>

@@ -1,0 +1,11 @@
+:host{
+    color:#eb8c34;
+    
+}
+section{
+    text-align: center;
+}
+.loading{
+    opacity: 0.5;
+    border:2px solid black;
+}
